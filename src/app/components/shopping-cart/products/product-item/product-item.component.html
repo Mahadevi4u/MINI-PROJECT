@@ -1,0 +1,15 @@
+<div class="card mb-4 box-shadow">
+    <img id="productimg" class="card-img-top" [src]="productItem.imageUrl" alt="Card image cap" style="max-width:100%;height:auto;">
+    <div class="card-body">
+        <h5>{{productItem.price|currency: 'INR'}}</h5>
+      <h6 class="card-text">{{productItem.name}}</h6>
+      
+      <p class="card-text">{{productItem.description | slice:0:50}}...</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-primary" (click)="handleAddToCart()">Add to Cart</button>
+         <a [routerLink]="['/products' , productItem.id]"><button type="button" class="btn btn-sm btn-dark">View Details</button></a>
+        </div>
+       
+      </div>
+    </div>

@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-from card">
+            <div class="card-header text-center">
+                <h2>sign up</h2>
+            </div>
+            <div class="card-body">
+                <form  #registerForm="ngForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" [(ngModel)]="register.name"
+                        name="name" required/>
+                        <span class="invalid-feedback">name can't be blank</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" class="form-control" [(ngModel)]="register.email"
+                        name="email" required/>
+                        <span class="invalid-feedback">email can't be blank</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">UserName</label>
+                        <input id="name" class="form-control" [(ngModel)]="register.username"
+                       name="username" required/>
+                        <span class="invalid-feedback">username can't be blank</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">password</label>
+                        <input type="password" class="form-control" [(ngModel)]="register.password"
+                        name="password" required/>
+                        <span class="invalid-feedback">password can't be blank</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmpassword">confirm password</label>
+                        <input type="password" class="form-control" [(ngModel)]="register.confirmpassword"
+                        name="confirmpassword" required/>
+                        <span class="invalid-feedback">passwords must match</span>
+                    </div>
+                    
+
+
+                    <div class="form-group">
+                       <a [routerLink]="['/login']"><button  type="submit" class="btn btn-info btn-block w-75" [disabled]="!registerForm.form.valid">Register</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+</div>

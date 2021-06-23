@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Black sofa",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRdx3e0myfsUME03uV8g5keSrPOJAW9QJrug&usqp=CAU",
+      "description": "A sectional sofa is modular. It usually includes at least two pieces that can be arranged in multiple configurations. A sectional sofa often has the option to choose the arm position as either left or right, with two or no arms. The key benefit of a sectional sofa is the ability to tailor its components to a range of spaces.",
+      "price": 10999
+    },
+    {
+      "id": 2,
+      "name": "White sofa",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2QoBIZWRuK5EI21tSA49Vk80FDjJSnWY_Xw&usqp=CAU",
+      "description": "If a single piece of furniture has the ability to define the style of a personal living space, that piece would be the sofa. Available in a range of styles -- with a variety of functions -- a sofa can be functional or whimsical, period or contemporary, single or sectional. In each instance the sofa, as a signature object, defines the space in which it sits.",
+      "price": 11999
+    },
+    {
+      "id": 3,
+      "name": "Balcony designs",
+      "imageUrl": "https://media.designcafe.com/wp-content/uploads/2020/06/18112758/nature-touch-small-open-balcony-ideas.jpg",
+      "description": "Balcony, external extension of an upper floor of a building, enclosed up to a height of about three feet (one metre) by a solid or pierced screen, by balusters (see also balustrade), or by railings.",
+      "price": 20999
+    },
+    {
+      "id": 4,
+      "name": "Center-table",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHeTpuKK9pKagcrRBDG8XswwCAL1dQ33UEGkpJWZH2Awhms5_WxvHdjhcVgpyDj8-lZnA&usqp=CAU",
+      "description": "Modern center table designs speak of a person who cares about and is in touch with the latest trends, whether in technology, furniture or clothes",
+      "price": 5699
+    },
+    {
+      "id": 5,
+      "name": "Modern Black Sofa",
+      "imageUrl": "https://secure.img1-fg.wfcdn.com/im/98533552/resize-h310-w310%5Ecompr-r85/1192/119206776/cheryle-1465-wide-reversible-modular-sofa-chaise.jpg",
+      "description": "The 'Modern' furniture style was defined between the 1920s and 50s, breaking away from the traditions of the pre-industrial revolution. With a focus on simplicity, modern sofas are usually made using natural materials including wood and leather and are often raised off the floor.",
+      "price": 24999
+    },
+    {
+      "id": 6,
+      "name": "Pooja Designs",
+      "imageUrl": "http://www.qualcondreams.com/in/wp-content/uploads/2021/02/pooja-room_4-decorate-pooja-rooms-best-puja-room-designs-best-pooja-room-designs.jpg",
+      "description": "If you love to keep things classy and elegant even in those divine corners, then these white pooja room designs are just perfect for you",
+      "price": 9999
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Balcony designs",
+        "description": "Balcony, external extension of an upper floor of a building, enclosed up to a height of about three feet (one metre) by a solid or pierced screen, by balusters (see also balustrade), or by railings.",
+        "price": 28999,
+        "imageUrl": "https://media.designcafe.com/wp-content/uploads/2020/06/18112758/nature-touch-small-open-balcony-ideas.jpg"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Balcony designs",
+        "description": "Balcony, external extension of an upper floor of a building, enclosed up to a height of about three feet (one metre) by a solid or pierced screen, by balusters (see also balustrade), or by railings.",
+        "price": 28999,
+        "imageUrl": "https://media.designcafe.com/wp-content/uploads/2020/06/18112758/nature-touch-small-open-balcony-ideas.jpg"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Balcony designs",
+        "description": "Balcony, external extension of an upper floor of a building, enclosed up to a height of about three feet (one metre) by a solid or pierced screen, by balusters (see also balustrade), or by railings.",
+        "price": 28999,
+        "imageUrl": "https://media.designcafe.com/wp-content/uploads/2020/06/18112758/nature-touch-small-open-balcony-ideas.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Balcony designs",
+        "description": "Balcony, external extension of an upper floor of a building, enclosed up to a height of about three feet (one metre) by a solid or pierced screen, by balusters (see also balustrade), or by railings.",
+        "price": 28999,
+        "imageUrl": "https://media.designcafe.com/wp-content/uploads/2020/06/18112758/nature-touch-small-open-balcony-ideas.jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "White Sofa",
+        "description": "If a single piece of furniture has the ability to define the style of a personal living space, that piece would be the sofa. Available in a range of styles -- with a variety of functions -- a sofa can be functional or whimsical, period or contemporary, single or sectional. In each instance the sofa, as a signature object, defines the space in which it sits.",
+        "price": 11999,
+        "imageUrl": "http://cdn.home-designing.com/wp-content/uploads/2009/06/black-and-white-living-room.jpg"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Black Sofa",
+        "description": "A sectional sofa is modular. It usually includes at least two pieces that can be arranged in multiple configurations. A sectional sofa often has the option to choose the arm position as either left or right, with two or no arms. The key benefit of a sectional sofa is the ability to tailor its components to a range of spaces.",
+        "price": 10999,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRdx3e0myfsUME03uV8g5keSrPOJAW9QJrug&usqp=CAU"
+      },
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

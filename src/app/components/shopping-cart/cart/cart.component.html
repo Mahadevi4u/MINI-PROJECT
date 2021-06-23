@@ -1,0 +1,16 @@
+<div *ngIf="cartItems.length===0" class="alert alert-info">Your Cart is having 0 items</div>
+<ul *ngIf="cartItems.length > 0" class="list-group">
+    <li class="list-group-item" *ngFor="let item of cartItems">
+    <app-cart-item [cartItem]="item">
+       
+    </app-cart-item>
+
+    </li>
+    <li class="list-group-item active">
+       Total: {{ cartTotal | currency: 'INR'}}
+    </li>
+</ul>
+
+<div>
+    <a class="btn btn-success" [routerLink]="['/success']">Place Order</a>
+</div>

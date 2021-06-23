@@ -1,0 +1,49 @@
+h3{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color:chocolate;
+    font-family: monospace;
+    
+
+}
+.nav{
+    visibility: hidden;
+    
+}
+form{
+    background-color:bisque;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.guest-from card{
+    background-color: white;
+
+}
+.hide{
+    display: none;
+}
+.box{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    width:fit-content;
+    background-color:oldlace;
+    box-shadow: lavender;
+    margin-left: auto;
+    margin-right: auto;
+}
+i{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box h3{
+    color: palevioletred;
+}
+
+

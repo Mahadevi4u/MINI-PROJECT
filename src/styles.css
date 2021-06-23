@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.foot{
+    margin-top: 30px;
+}
+.guest-form{
+    text-transform: uppercase;
+    font-size: medium;
+}
+.guest-form label{
+    font-size: small;
+}

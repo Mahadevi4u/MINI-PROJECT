@@ -1,0 +1,113 @@
+<!--<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="guest-from card">
+            <div class="card-header text-center">
+              <h3 class="text-center">Checking Out Products</h3>
+  
+              <form #orderForm="ngForm" (ngSubmit)="onSubmit()">
+                
+                
+                     <div class="form-group row">
+                       <label for="name" class="col-md-4">Full Name : </label>
+                      <input type="text" id="name" name="name" class="form-control col-md-6" [(ngModel)]="order.name" required><br>
+                    </div>
+                    <div class="form-group row">
+                      <label for="phone" class="col-md-4">Mobile no:</label>
+                      <input type="text" name="phone" class="form-control col-md-6" [(ngModel)]="order.phone" required><br>
+                    </div>
+                    <div class="form-group row">
+                     <label for="pin" class="col-md-4">Pincode: </label>
+                     <input type="text" name="pin" class="form-control col-md-6" [(ngModel)]="order.pin" required><br>
+                     </div>
+                     <div class="form-group row">
+                     <label for="state" class="col-md-4">State: </label>
+                     <input type="text" name="state" class="form-control col-md-6" [(ngModel)]="order.state" required> <br> 
+                     </div>
+                     <div class="form-group row">
+                     <label for="city" class="col-md-4">City: </label>
+                     <input type="text" name="city"  [(ngModel)]="order.city" class="form-control col-md-6" required> <br> 
+                     </div>
+                     <div class="form-group row">
+                     <label for="hno" class="col-md-4">H:no,building name </label>
+                    <input type="text" name="hno" [(ngModel)]="order.hno" required
+                    class="form-control col-md-6"><br>
+                    </div>
+                    <div class="form-group row">
+                    <label for="street" class="col-md-4">street-no,road-no </label>
+                     <input type="text" name="street" [(ngModel)]="order.street" required
+                     class="form-control col-md-6">
+                     </div> 
+                     <div class="form-group row">
+                       <label for="radio" class="col-md-4">Select payment method:</label>
+
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Cash on Delivery
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Credit/Debit/Atm Card
+                    </label>
+                  </div>
+                  
+                
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     UPI
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Net Banking
+                    </label>
+                    </div>
+                     </div>
+
+
+
+
+                    
+             </form>
+             <div>
+              <a [routerLink]="['/order']"><button type="submit" class="btn btn-success btn-block w-100" [disabled]="!orderForm.form.valid">Continue</button></a>
+            </div>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>-->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container mt-5" [class.hide]="isSubmitted">
+      <h2 style="text-align: center;"> Checkout details</h2>
+      <div class="row mt-5">
+        <div class="col-md-4 offset-md-4">
+          <button (click)="pay()" class="btn btn-primary btn-block">Proceed To Pay </button>
+          
+        </div>
+        
+      </div>
+  
+     
+     
+      </div>
+        <div [class.hide]="!isSubmitted" [ngClass]="myStyles">
+          <i class="fa fa-check" style="font-size:24px"></i>
+          <h3 id="div">Order Placed Successfully</h3>
+          <p>Thank you so much for your order</p>
+            </div>
+   
+  </body>
+</html>
+  
+
+ 
